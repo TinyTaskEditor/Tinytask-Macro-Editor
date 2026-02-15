@@ -10,7 +10,8 @@
       "output": "release"
     },
     "win": {
-      "target": "portable"
+      "target": "portable",
+      "artifactName": "TinyTask Editor Portable.${ext}"
     },
     "nsis": {
       "oneClick": false,
