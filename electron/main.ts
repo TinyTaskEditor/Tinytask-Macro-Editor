@@ -24,8 +24,8 @@ Menu.setApplicationMenu(null)
 
 function createWindow() {
     win = new BrowserWindow({
-        // Use the constant VITE_PUBLIC which is guaranteed to be a string
-        icon: path.join(VITE_PUBLIC, 'vite.svg'),
+        // Use the new icon.ico for the window icon
+        icon: path.join(VITE_PUBLIC, 'icon.ico'),
         webPreferences: {
             preload: path.join(__dirname, 'preload.js'),
         },

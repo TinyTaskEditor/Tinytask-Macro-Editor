@@ -11,7 +11,8 @@
     },
     "win": {
       "target": "portable",
-      "artifactName": "TinyTask Editor Portable.${ext}"
+      "artifactName": "TinyTask Editor Portable.${ext}",
+      "icon": "build/ico.ico"
     },
     "nsis": {
       "oneClick": false,
